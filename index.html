@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <article class="container">
+        <div><img src="https://mathwizz.com/arithmetic/help/help9.gif"></div>
+        <div>
+            <input id="lowerLimit" type="number" placeholder="lower limit">
+            <input id="upperLimit" type="number" placeholder="upper limit">
+        </div>
+        <div>
+            <input id="firstDivider" type="number" placeholder="1.divider">
+            <input id="secondDivider" type="number" placeholder="2.divider">
+        </div>
+        <div class="sum">
+            <button id="findButton" onclick="myFunction()" type="submit">Calculate</button>
+            <p>Numbers that can be divided by the values you enter :</p>
+            <p id="quotient"></p>
+            <p>The sum of these values:</p>
+            <p id="quotientSum"></p>
+        </div>
+
+    </article>
+    <script src="app.js"></script>
+</body>
+
+</html>
